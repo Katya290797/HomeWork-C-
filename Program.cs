@@ -1,0 +1,61 @@
+﻿// Задача 19
+// Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом. Через строку решать нельзя.
+// 4212 -> нет
+// 12821 -> да
+// 23432 -> да
+
+// Console.WriteLine("Введите любое пятизначное число");
+
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// int action1 = number / 10000; // первая цифра
+
+// int action2 = (number / 1000) % 10; // вторая цифра
+
+// int action4 = (number / 10) % 10;  // четвертая цифра
+
+// int action5 = number % 10; 
+
+// if (action1 == action5 && action2 == action4){
+//     Console.WriteLine("Число является палиндромом ");
+// }
+// else{
+//     Console.WriteLine("Число не является палиндромом ");
+// }
+
+// Console.WriteLine("Введите координаты первой точки");
+// int x1 = Convert.ToInt32(Console.ReadLine());
+// int y1 = Convert.ToInt32(Console.ReadLine());
+// int z1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите координаты второй точки");
+// int x2 = Convert.ToInt32(Console.ReadLine());
+// int y2 = Convert.ToInt32(Console.ReadLine());
+// int z2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine(DistancePount(x1, y1, z1, x2, y2, z2));
+
+// double DistancePount(int x1, int y1, int z1, int x2, int y2, int z2)
+// {
+//     double result1 = (x2 - x1) * (x2 - x1);
+//     double result2 = (y2 - y1) * (y2 * y1);
+//     double result3 = (z2 - z1) * (z2 - z1);
+//     double result = Math.Sqrt(result1 + result2 + result3);
+//     return result;
+// }
+
+// Задача 23
+// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+// 3 -> 1, 8, 27
+// 5 -> 1, 8, 27, 64, 125
+
+// Console.WriteLine("Введите число");
+// int n = Convert.ToInt32(Console.ReadLine());
+// NumberScubed(n);
+
+// void NumberScubed(int n){
+//     for (int i = 1; i <= n; i++){
+
+//         Console.WriteLine("{0}^3 = {1}", i, i * i * i);
+//     }
+
+
+// }
